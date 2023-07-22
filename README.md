@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github URL](https://github.com/Stevish1968/newsletter-update)
+- Live Site URL: [Site URL](https://stevish1968.github.io/newsletter-update/)
 
 ## My process
 
