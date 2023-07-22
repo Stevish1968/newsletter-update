@@ -1,3 +1,5 @@
+import IconSuccess from '../assets/images/icon-success.svg'
+
 function Thanks({email, setIsSubmitted, setEmail}) {
 
     const handleDismiss = () => {
@@ -9,7 +11,7 @@ function Thanks({email, setIsSubmitted, setEmail}) {
 
         <div className="thank-you">
             <picture>
-                <img src='/src/assets/images/icon-success.svg' />
+                <img src={IconSuccess} />
             </picture>
             <h1>Thanks for subscribing</h1>
             <p>
