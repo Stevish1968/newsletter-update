@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ============= Colors ================== */
+:root {
+  --tomato: hsl(4, 100%, 67%);
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--charcoal-grey);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.container {
+  width: 375px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  background-color: var(--white);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.5rem;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  padding: .15rem 2rem;
+  margin-block: 1rem;
+  background-image: url("./assets//images//icon-list.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 20px;
+}
+
+.email p {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.btn {
+  margin-block: 1rem;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--dark-slate-grey);
+  color: var(--white);
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.btn:hover {
+  background-color: var(--tomato)
+}
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: var(--white);
+  max-width: 25rem;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.thank-you img {
+  
+}
+
+
+
+@media  screen and (min-width: 768px) {
+  .container {
+    width: 900px;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 3rem;
+    border-radius: 1rem;
+  }
+
+  picture {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+
+  
+}
