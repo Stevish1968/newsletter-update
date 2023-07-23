@@ -24,7 +24,7 @@ function EmailInput({ setIsSubmitted, email, setEmail }) {
                     name='email'
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    helperText={!email ? 'Please enter a valid email address' : ''}
+                    helperText={!error ? 'Please enter a valid email address' : ''}
                     color='primary'
                     error={!error}
                     variant='outlined'
