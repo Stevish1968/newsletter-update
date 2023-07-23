@@ -3,9 +3,12 @@ import { useState } from 'react'
 
 function EmailInput({ setIsSubmitted, email, setEmail }) {
 
+    const [error, setError] = useState(true)
+
     const handleSubmit = (e) => {
         e.preventDefault();
         if (e.target.email.value === '') {
+            setError(false)
             setIsSubmitted(false)
             return
         }
@@ -23,7 +26,7 @@ function EmailInput({ setIsSubmitted, email, setEmail }) {
                     onChange={(e) => setEmail(e.target.value)}
                     helperText={!email ? 'Please enter a valid email address' : ''}
                     color='primary'
-                    error={!email}
+                    error={!error}
                     variant='outlined'
                     label='Email'
                     sx={{
