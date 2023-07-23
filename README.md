@@ -57,7 +57,7 @@ Users should be able to:
 
 ### What I learned
 
-This project helped me in learning on how to go about planning the layout of the project. It took me sometime to figure out how I wanted to go about completing this project. I was between flexbox and grid and I'm still not sure if I did things right and will likely redo this project to improve things. It was also good practice with react, sending state and values through props and setting controlled textfield.
+This project helped me in learning on how to go about planning the layout of the project. It took me sometime to figure out how I wanted to go about completing this project. I was between flexbox and grid and I'm still not sure if I did things right and will likely redo this project to improve things. It was also good practice with react, sending state and values through props. I also added Material UI for the text feild for the styling.
 
 
 ### Continued development
