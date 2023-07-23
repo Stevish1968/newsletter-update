@@ -5,6 +5,10 @@ function EmailInput({ setIsSubmitted, email, setEmail }) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        if (e.target.email.value === '') {
+            setIsSubmitted(false)
+            return
+        }
         setIsSubmitted(true)
         setEmail(e.target.email.value)
     }
